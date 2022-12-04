@@ -1,0 +1,43 @@
+[0.668s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[3.014s] [35m[1mConsolidate compiler generated dependencies of target exer06_param[0m
+[3.714s] [  8%] [32mBuilding CXX object CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o[0m
+[3.894s] [ 41%] Built target exer02_server
+[3.894s] [ 41%] Built target exer03_client
+[4.002s] [ 58%] Built target exer01_pub_sub
+[4.341s] [ 75%] Built target exer04_action_server
+[4.352s] [ 91%] Built target exer05_action_client
+[11.573s] [100%] [32m[1mLinking CXX executable exer06_param[0m
+[13.057s] [100%] Built target exer06_param
+[13.072s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[13.141s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp07_exercise
+[13.184s] -- Install configuration: ""
+[13.270s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[13.319s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[13.330s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[13.374s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[13.421s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[13.468s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param
+[13.469s] -- Set runtime path of "/home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param" to ""
+[13.481s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[13.524s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[13.524s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer06_param_launch.py
+[13.525s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py
+[13.525s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py
+[13.525s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[13.525s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[13.571s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[13.586s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[13.602s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[13.602s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[13.602s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[13.603s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[13.603s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[13.603s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[13.603s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[13.603s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[13.603s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[13.604s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[13.623s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[13.623s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[13.624s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[13.627s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp07_exercise

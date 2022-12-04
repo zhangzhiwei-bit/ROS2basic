@@ -1,0 +1,25 @@
+[1.533s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp02_service -- -j8 -l8
+[1.770s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[1.795s] [ 50%] Built target demo02_client
+[1.826s] [100%] Built target demo01_server
+[2.211s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp02_service -- -j8 -l8
+[3.392s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp02_service
+[3.435s] -- Install configuration: ""
+[3.457s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[3.458s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[3.459s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[3.464s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[3.465s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[3.466s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[3.468s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[3.469s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[3.470s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[3.472s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[3.474s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[3.478s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[3.480s] -- Installing: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[3.487s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[3.490s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[3.492s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[3.494s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[3.574s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp02_service

@@ -1,0 +1,82 @@
+[1.233s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[4.357s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.278s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[6.588s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.606s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.653s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.158s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.196s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[28.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.086s] -- Looking for pthread.h
+[31.873s] -- Looking for pthread.h - found
+[31.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[33.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33.058s] -- Found Threads: TRUE  
+[33.684s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[34.122s] -- Found base_interfaces_demo: 0.0.0 (/home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[34.267s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[34.413s] -- Found rclcpp_action: 16.0.2 (/opt/ros/humble/share/rclcpp_action/cmake)
+[34.554s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[34.888s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.889s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zzw/ws01_plumbing/src/cpp07_exercise/include>
+[34.890s] -- Configured cppcheck exclude dirs and/or files: 
+[34.891s] -- Added test 'flake8' to check Python code syntax and style conventions
+[34.893s] -- Added test 'lint_cmake' to check CMake code style
+[34.894s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[34.898s] -- Added test 'uncrustify' to check C / C++ code style
+[34.898s] -- Configured uncrustify additional arguments: 
+[34.901s] -- Added test 'xmllint' to check XML markup files
+[34.907s] -- Configuring done
+[35.171s] -- Generating done
+[35.187s] -- Build files have been written to: /home/zzw/ws01_plumbing/build/cpp07_exercise
+[35.353s] [  8%] [32mBuilding CXX object CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o[0m
+[35.441s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[35.449s] [35m[1mConsolidate compiler generated dependencies of target exer05_action_client[0m
+[35.466s] [35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[35.471s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[35.527s] [ 41%] Built target exer03_client
+[35.527s] [ 41%] Built target exer05_action_client
+[35.530s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[35.537s] [ 58%] Built target exer02_server
+[35.568s] [ 66%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[35.589s] [ 83%] Built target exer04_action_server
+[52.379s] [ 91%] [32m[1mLinking CXX executable exer06_param[0m
+[57.663s] [ 91%] Built target exer06_param
+[70.138s] [100%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[71.533s] [100%] Built target exer01_pub_sub
+[71.707s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[71.859s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp07_exercise
+[71.874s] -- Install configuration: ""
+[71.969s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[72.031s] -- Set runtime path of "/home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""
+[72.121s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[72.196s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[72.244s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[72.313s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[72.314s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param
+[72.317s] -- Set runtime path of "/home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param" to ""
+[72.338s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[72.358s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[72.359s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer06_param_launch.py
+[72.421s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py
+[72.422s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py
+[72.492s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[72.493s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[72.518s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[72.530s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[72.540s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[72.541s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[72.541s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[72.542s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[72.542s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[72.543s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[72.543s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[72.543s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[72.544s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[72.546s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[72.547s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[72.547s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[72.547s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[72.565s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp07_exercise

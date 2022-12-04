@@ -1,0 +1,42 @@
+[0.495s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[3.277s] [ 10%] [32mBuilding CXX object CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o[0m
+[3.302s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[3.305s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[3.314s] [35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[3.327s] [ 30%] Built target exer03_client
+[3.452s] [ 50%] Built target exer02_server
+[3.481s] [ 70%] Built target exer01_pub_sub
+[3.606s] [ 90%] Built target exer04_action_server
+[12.190s] [100%] [32m[1mLinking CXX executable exer05_action_client[0m
+[14.052s] [100%] Built target exer05_action_client
+[14.063s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[14.132s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp07_exercise
+[14.178s] -- Install configuration: ""
+[14.252s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[14.290s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[14.307s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[14.371s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[14.420s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[14.422s] -- Set runtime path of "/home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client" to ""
+[14.422s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[14.423s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[14.424s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py
+[14.424s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py
+[14.424s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[14.424s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[14.424s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[14.425s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[14.425s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[14.474s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[14.474s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[14.474s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[14.474s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[14.475s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[14.475s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[14.476s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[14.476s] -- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[14.486s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[14.486s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[14.486s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[14.486s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[14.490s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp07_exercise

@@ -1,0 +1,47 @@
+[2.152s] Invoking command in '/home/zzw/ws01_plumbing/src/py04_param': PYTHONPATH=/home/zzw/ws01_plumbing/build/py04_param/prefix_override:/home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/zzw/ws01_plumbing/build/py04_param/build install --record /home/zzw/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed
+[2.788s] running egg_info
+[2.788s] creating ../../build/py04_param/py04_param.egg-info
+[2.788s] writing ../../build/py04_param/py04_param.egg-info/PKG-INFO
+[2.788s] writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt
+[2.789s] writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt
+[2.789s] writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt
+[2.789s] writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt
+[2.789s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[2.790s] reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[2.790s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[2.790s] running build
+[2.790s] running build_py
+[2.791s] creating /home/zzw/ws01_plumbing/build/py04_param/build
+[2.791s] creating /home/zzw/ws01_plumbing/build/py04_param/build/lib
+[2.793s] creating /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param
+[2.793s] copying py04_param/demo01_param_server_py.py -> /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param
+[2.793s] copying py04_param/demo02_param_client_py.py -> /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param
+[2.793s] copying py04_param/__init__.py -> /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param
+[2.794s] copying py04_param/demo00_param_py.py -> /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param
+[2.794s] running install
+[2.794s] running install_lib
+[2.795s] creating /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[2.795s] copying /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param/demo01_param_server_py.py -> /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[2.796s] copying /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param/demo02_param_client_py.py -> /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[2.797s] copying /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param/__init__.py -> /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[2.800s] copying /home/zzw/ws01_plumbing/build/py04_param/build/lib/py04_param/demo00_param_py.py -> /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[2.801s] byte-compiling /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo01_param_server_py.py to demo01_param_server_py.cpython-310.pyc
+[2.802s] byte-compiling /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo02_param_client_py.py to demo02_param_client_py.cpython-310.pyc
+[2.804s] byte-compiling /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/__init__.py to __init__.cpython-310.pyc
+[2.805s] byte-compiling /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo00_param_py.py to demo00_param_py.cpython-310.pyc
+[2.805s] running install_data
+[2.806s] creating /home/zzw/ws01_plumbing/install/py04_param/share/ament_index
+[2.806s] creating /home/zzw/ws01_plumbing/install/py04_param/share/ament_index/resource_index
+[2.807s] creating /home/zzw/ws01_plumbing/install/py04_param/share/ament_index/resource_index/packages
+[2.807s] copying resource/py04_param -> /home/zzw/ws01_plumbing/install/py04_param/share/ament_index/resource_index/packages
+[2.808s] copying package.xml -> /home/zzw/ws01_plumbing/install/py04_param/share/py04_param
+[2.808s] running install_egg_info
+[2.808s] Copying ../../build/py04_param/py04_param.egg-info to /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info
+[2.809s] running install_scripts
+[2.809s] Installing demo00_param_py script to /home/zzw/ws01_plumbing/install/py04_param/lib/py04_param
+[2.811s] Installing demo01_param_server_py script to /home/zzw/ws01_plumbing/install/py04_param/lib/py04_param
+[2.811s] Installing demo02_param_client_py script to /home/zzw/ws01_plumbing/install/py04_param/lib/py04_param
+[2.811s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py04_param/install.log'
+[2.812s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.813s]   warnings.warn(
+[2.851s] Invoked command in '/home/zzw/ws01_plumbing/src/py04_param' returned '0': PYTHONPATH=/home/zzw/ws01_plumbing/build/py04_param/prefix_override:/home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/zzw/ws01_plumbing/build/py04_param/build install --record /home/zzw/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed

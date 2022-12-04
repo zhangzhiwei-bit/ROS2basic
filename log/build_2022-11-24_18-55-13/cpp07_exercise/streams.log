@@ -1,0 +1,24 @@
+[1.358s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[3.723s] [35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[3.724s] [35m[1mConsolidate compiler generated dependencies of target exer05_action_client[0m
+[3.805s] [ 10%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[3.850s] [ 30%] Built target exer01_pub_sub
+[3.856s] [ 50%] Built target exer05_action_client
+[3.881s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[3.907s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[3.908s] [ 70%] Built target exer02_server
+[3.935s] [ 90%] Built target exer03_client
+[11.863s] [01m[K/home/zzw/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Kvoid Exer04ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)[m[K’:
+[11.864s] [01m[K/home/zzw/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:46:19:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp_action::GoalResponse Exer04ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >)[m[K’
+[11.864s]    46 |             (void)[01;31m[Khandle_goal[m[K;
+[11.864s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[11.864s] [01m[K/home/zzw/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:32:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.864s]    32 |         rclcpp_action::GoalResponse [01;36m[Khandle_goal[m[K(const rclcpp_action::GoalUUID &uuid, std::shared_ptr<const Nav::Goal> goal){
+[11.864s]       |                                     [01;36m[K^~~~~~~~~~~[m[K
+[11.864s] [01m[K/home/zzw/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:45:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.865s]    45 |         void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Nav>> goal_handle[m[K){
+[11.865s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[16.178s] gmake[2]: *** [CMakeFiles/exer04_action_server.dir/build.make:76: CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o] Error 1
+[16.178s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/exer04_action_server.dir/all] Error 2
+[16.179s] gmake: *** [Makefile:146: all] Error 2
+[16.183s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp07_exercise' returned '2': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp07_exercise -- -j8 -l8

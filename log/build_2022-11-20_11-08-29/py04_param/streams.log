@@ -1,0 +1,25 @@
+[3.940s] Invoking command in '/home/zzw/ws01_plumbing/src/py04_param': PYTHONPATH=/home/zzw/ws01_plumbing/build/py04_param/prefix_override:/home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/zzw/ws01_plumbing/build/py04_param/build install --record /home/zzw/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed
+[4.396s] running egg_info
+[4.398s] writing ../../build/py04_param/py04_param.egg-info/PKG-INFO
+[4.400s] writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt
+[4.400s] writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt
+[4.400s] writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt
+[4.401s] writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt
+[4.403s] reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[4.434s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[4.434s] running build
+[4.434s] running build_py
+[4.435s] running install
+[4.435s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.436s]   warnings.warn(
+[4.436s] running install_lib
+[4.438s] running install_data
+[4.438s] running install_egg_info
+[4.440s] removing '/home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info' (and everything under it)
+[4.441s] Copying ../../build/py04_param/py04_param.egg-info to /home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info
+[4.450s] running install_scripts
+[4.490s] Installing demo00_param_py script to /home/zzw/ws01_plumbing/install/py04_param/lib/py04_param
+[4.491s] Installing demo01_param_server_py script to /home/zzw/ws01_plumbing/install/py04_param/lib/py04_param
+[4.491s] Installing demo02_param_client_py script to /home/zzw/ws01_plumbing/install/py04_param/lib/py04_param
+[4.493s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py04_param/install.log'
+[4.575s] Invoked command in '/home/zzw/ws01_plumbing/src/py04_param' returned '0': PYTHONPATH=/home/zzw/ws01_plumbing/build/py04_param/prefix_override:/home/zzw/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/zzw/ws01_plumbing/build/py04_param/build install --record /home/zzw/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed

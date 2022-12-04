@@ -1,0 +1,51 @@
+[9.486s] Invoking command in '/home/zzw/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/build/py01_topic/prefix_override:/home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/zzw/ws01_plumbing/build/py01_topic/build install --record /home/zzw/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed
+[10.760s] running egg_info
+[10.762s] creating ../../build/py01_topic/py01_topic.egg-info
+[10.763s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[10.763s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[10.764s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[10.765s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[10.765s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[10.765s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[10.771s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[10.773s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[10.773s] running build
+[10.773s] running build_py
+[10.774s] creating /home/zzw/ws01_plumbing/build/py01_topic/build
+[10.775s] creating /home/zzw/ws01_plumbing/build/py01_topic/build/lib
+[10.795s] creating /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[10.796s] copying py01_topic/demo04_listener_stu_py.py -> /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[10.798s] copying py01_topic/__init__.py -> /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[10.798s] copying py01_topic/demo02_listener_str_py.py -> /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[10.801s] copying py01_topic/demo01_talker_str_py.py -> /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[10.803s] copying py01_topic/demo03_talker_stu_py.py -> /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[10.809s] running install
+[10.809s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.810s]   warnings.warn(
+[10.810s] running install_lib
+[10.813s] creating /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[10.814s] copying /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo04_listener_stu_py.py -> /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[10.815s] copying /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[10.815s] copying /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo02_listener_str_py.py -> /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[10.815s] copying /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[10.815s] copying /home/zzw/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo03_talker_stu_py.py -> /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[10.818s] byte-compiling /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo04_listener_stu_py.py to demo04_listener_stu_py.cpython-310.pyc
+[10.819s] byte-compiling /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[10.820s] byte-compiling /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_listener_str_py.py to demo02_listener_str_py.cpython-310.pyc
+[10.822s] byte-compiling /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+[10.823s] byte-compiling /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu_py.py to demo03_talker_stu_py.cpython-310.pyc
+[10.824s] running install_data
+[10.856s] creating /home/zzw/ws01_plumbing/install/py01_topic/share/ament_index
+[10.857s] creating /home/zzw/ws01_plumbing/install/py01_topic/share/ament_index/resource_index
+[10.858s] creating /home/zzw/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[10.859s] copying resource/py01_topic -> /home/zzw/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[10.861s] copying package.xml -> /home/zzw/ws01_plumbing/install/py01_topic/share/py01_topic
+[10.863s] running install_egg_info
+[10.870s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[10.874s] running install_scripts
+[10.985s] Installing demo01_talker_str_py script to /home/zzw/ws01_plumbing/install/py01_topic/lib/py01_topic
+[10.985s] Installing demo02_listener_str_py script to /home/zzw/ws01_plumbing/install/py01_topic/lib/py01_topic
+[10.986s] Installing demo03_talker_stu_py script to /home/zzw/ws01_plumbing/install/py01_topic/lib/py01_topic
+[10.986s] Installing demo04_listener_stu_py script to /home/zzw/ws01_plumbing/install/py01_topic/lib/py01_topic
+[10.988s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py01_topic/install.log'
+[11.115s] Invoked command in '/home/zzw/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/build/py01_topic/prefix_override:/home/zzw/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/zzw/ws01_plumbing/build/py01_topic/build install --record /home/zzw/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed

@@ -1,0 +1,43 @@
+[9.281s] Invoking command in '/home/zzw/ws01_plumbing/src/py03_action': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/build/py03_action/prefix_override:/home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/zzw/ws01_plumbing/build/py03_action/build install --record /home/zzw/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
+[10.496s] running egg_info
+[10.499s] creating ../../build/py03_action/py03_action.egg-info
+[10.500s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[10.502s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[10.503s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[10.504s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[10.505s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[10.507s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[10.514s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[10.517s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[10.518s] running build
+[10.519s] running build_py
+[10.521s] creating /home/zzw/ws01_plumbing/build/py03_action/build
+[10.523s] creating /home/zzw/ws01_plumbing/build/py03_action/build/lib
+[10.525s] creating /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action
+[10.526s] copying py03_action/demo02_action_client_py.py -> /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action
+[10.528s] copying py03_action/__init__.py -> /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action
+[10.529s] copying py03_action/demo01_action_server_py.py -> /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action
+[10.534s] running install
+[10.565s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.565s]   warnings.warn(
+[10.566s] running install_lib
+[10.566s] creating /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[10.566s] copying /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action/demo02_action_client_py.py -> /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[10.566s] copying /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action/__init__.py -> /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[10.567s] copying /home/zzw/ws01_plumbing/build/py03_action/build/lib/py03_action/demo01_action_server_py.py -> /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[10.567s] byte-compiling /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo02_action_client_py.py to demo02_action_client_py.cpython-310.pyc
+[10.567s] byte-compiling /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/__init__.py to __init__.cpython-310.pyc
+[10.567s] byte-compiling /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo01_action_server_py.py to demo01_action_server_py.cpython-310.pyc
+[10.567s] running install_data
+[10.585s] creating /home/zzw/ws01_plumbing/install/py03_action/share/ament_index
+[10.586s] creating /home/zzw/ws01_plumbing/install/py03_action/share/ament_index/resource_index
+[10.587s] creating /home/zzw/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages
+[10.587s] copying resource/py03_action -> /home/zzw/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages
+[10.587s] copying package.xml -> /home/zzw/ws01_plumbing/install/py03_action/share/py03_action
+[10.590s] running install_egg_info
+[10.597s] Copying ../../build/py03_action/py03_action.egg-info to /home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[10.621s] running install_scripts
+[10.743s] Installing demo01_action_server_py script to /home/zzw/ws01_plumbing/install/py03_action/lib/py03_action
+[10.746s] Installing demo02_action_client_py script to /home/zzw/ws01_plumbing/install/py03_action/lib/py03_action
+[10.765s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py03_action/install.log'
+[10.907s] Invoked command in '/home/zzw/ws01_plumbing/src/py03_action' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/build/py03_action/prefix_override:/home/zzw/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/zzw/ws01_plumbing/build/py03_action/build install --record /home/zzw/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed

@@ -1,0 +1,15 @@
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/package_run_dependencies/tutorails_plumbing
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/parent_prefix_path/tutorails_plumbing
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.sh
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.dsv
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.sh
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.dsv
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.bash
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.sh
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.zsh
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.dsv
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/packages/tutorails_plumbing
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig.cmake
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig-version.cmake
+/home/zzw/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.xml

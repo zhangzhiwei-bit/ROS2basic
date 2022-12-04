@@ -1,0 +1,39 @@
+[2.082s] Invoking command in '/home/zzw/ws01_plumbing/src/py06_time': PYTHONPATH=/home/zzw/ws01_plumbing/build/py06_time/prefix_override:/home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/zzw/ws01_plumbing/build/py06_time/build install --record /home/zzw/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed
+[2.561s] running egg_info
+[2.562s] creating ../../build/py06_time/py06_time.egg-info
+[2.563s] writing ../../build/py06_time/py06_time.egg-info/PKG-INFO
+[2.564s] writing dependency_links to ../../build/py06_time/py06_time.egg-info/dependency_links.txt
+[2.564s] writing entry points to ../../build/py06_time/py06_time.egg-info/entry_points.txt
+[2.565s] writing requirements to ../../build/py06_time/py06_time.egg-info/requires.txt
+[2.565s] writing top-level names to ../../build/py06_time/py06_time.egg-info/top_level.txt
+[2.566s] writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[2.569s] reading manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[2.572s] writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[2.572s] running build
+[2.572s] running build_py
+[2.573s] creating /home/zzw/ws01_plumbing/build/py06_time/build
+[2.573s] creating /home/zzw/ws01_plumbing/build/py06_time/build/lib
+[2.573s] creating /home/zzw/ws01_plumbing/build/py06_time/build/lib/py06_time
+[2.574s] copying py06_time/demo01_time_py.py -> /home/zzw/ws01_plumbing/build/py06_time/build/lib/py06_time
+[2.575s] copying py06_time/__init__.py -> /home/zzw/ws01_plumbing/build/py06_time/build/lib/py06_time
+[2.575s] running install
+[2.575s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.576s]   warnings.warn(
+[2.579s] running install_lib
+[2.579s] creating /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[2.582s] copying /home/zzw/ws01_plumbing/build/py06_time/build/lib/py06_time/demo01_time_py.py -> /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[2.582s] copying /home/zzw/ws01_plumbing/build/py06_time/build/lib/py06_time/__init__.py -> /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[2.585s] byte-compiling /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/demo01_time_py.py to demo01_time_py.cpython-310.pyc
+[2.585s] byte-compiling /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/__init__.py to __init__.cpython-310.pyc
+[2.587s] running install_data
+[2.588s] creating /home/zzw/ws01_plumbing/install/py06_time/share/ament_index
+[2.588s] creating /home/zzw/ws01_plumbing/install/py06_time/share/ament_index/resource_index
+[2.589s] creating /home/zzw/ws01_plumbing/install/py06_time/share/ament_index/resource_index/packages
+[2.590s] copying resource/py06_time -> /home/zzw/ws01_plumbing/install/py06_time/share/ament_index/resource_index/packages
+[2.590s] copying package.xml -> /home/zzw/ws01_plumbing/install/py06_time/share/py06_time
+[2.590s] running install_egg_info
+[2.595s] Copying ../../build/py06_time/py06_time.egg-info to /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info
+[2.600s] running install_scripts
+[2.656s] Installing demo01_time_py script to /home/zzw/ws01_plumbing/install/py06_time/lib/py06_time
+[2.657s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py06_time/install.log'
+[2.739s] Invoked command in '/home/zzw/ws01_plumbing/src/py06_time' returned '0': PYTHONPATH=/home/zzw/ws01_plumbing/build/py06_time/prefix_override:/home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/zzw/ws01_plumbing/build/py06_time/build install --record /home/zzw/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed

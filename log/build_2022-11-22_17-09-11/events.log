@@ -1,0 +1,635 @@
+[0.000000] (-) TimerEvent: {}
+[0.001249] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002437] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.002738] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.002840] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.002920] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.003052] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.003143] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.003192] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.003297] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.003393] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.004772] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.005251] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.005514] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.005642] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.005763] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.005861] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.046336] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.099155] (-) TimerEvent: {}
+[0.116376] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.119302] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzw/ws01_plumbing/build/base_interfaces_demo', '--', '-j8', '-l8'], 'cwd': '/home/zzw/ws01_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-24680436-307f-4599-a9e1-1a103c56895b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/15_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/VMware/bin/:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.20.128.1:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-943cfc29ba.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws01_plumbing/build/base_interfaces_demo'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199341] (-) TimerEvent: {}
+[0.299904] (-) TimerEvent: {}
+[0.400651] (-) TimerEvent: {}
+[0.501423] (-) TimerEvent: {}
+[0.602166] (-) TimerEvent: {}
+[0.702828] (-) TimerEvent: {}
+[0.803592] (-) TimerEvent: {}
+[0.904237] (-) TimerEvent: {}
+[1.004946] (-) TimerEvent: {}
+[1.105613] (-) TimerEvent: {}
+[1.106553] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205785] (-) TimerEvent: {}
+[1.306398] (-) TimerEvent: {}
+[1.406924] (-) TimerEvent: {}
+[1.507460] (-) TimerEvent: {}
+[1.597107] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.607644] (-) TimerEvent: {}
+[1.622749] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.671328] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.707817] (-) TimerEvent: {}
+[1.808410] (-) TimerEvent: {}
+[1.908968] (-) TimerEvent: {}
+[2.009656] (-) TimerEvent: {}
+[2.110310] (-) TimerEvent: {}
+[2.211027] (-) TimerEvent: {}
+[2.311644] (-) TimerEvent: {}
+[2.317598] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.411858] (-) TimerEvent: {}
+[2.512430] (-) TimerEvent: {}
+[2.612953] (-) TimerEvent: {}
+[2.713548] (-) TimerEvent: {}
+[2.814446] (-) TimerEvent: {}
+[2.914981] (-) TimerEvent: {}
+[3.015647] (-) TimerEvent: {}
+[3.116166] (-) TimerEvent: {}
+[3.218052] (-) TimerEvent: {}
+[3.308097] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.318246] (-) TimerEvent: {}
+[3.418826] (-) TimerEvent: {}
+[3.519375] (-) TimerEvent: {}
+[3.617870] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.619467] (-) TimerEvent: {}
+[3.719896] (-) TimerEvent: {}
+[3.820460] (-) TimerEvent: {}
+[3.921147] (-) TimerEvent: {}
+[3.993572] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.021318] (-) TimerEvent: {}
+[4.032760] (base_interfaces_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.103846] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.104943] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.106155] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.121514] (-) TimerEvent: {}
+[4.175684] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.221711] (-) TimerEvent: {}
+[4.229157] (base_interfaces_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.321885] (-) TimerEvent: {}
+[4.422470] (-) TimerEvent: {}
+[4.502150] (base_interfaces_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[4.510998] (base_interfaces_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/zzw/ws01_plumbing/build/base_interfaces_demo\n'}
+[4.522666] (-) TimerEvent: {}
+[4.544785] (base_interfaces_demo) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.566043] (base_interfaces_demo) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.622821] (-) TimerEvent: {}
+[4.723336] (-) TimerEvent: {}
+[4.809433] (base_interfaces_demo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_base_interfaces_demo\n'}
+[4.823497] (-) TimerEvent: {}
+[4.924117] (-) TimerEvent: {}
+[5.024734] (-) TimerEvent: {}
+[5.125604] (-) TimerEvent: {}
+[5.226144] (-) TimerEvent: {}
+[5.302418] (base_interfaces_demo) StdoutLine: {'line': b'running egg_info\n'}
+[5.304646] (base_interfaces_demo) StdoutLine: {'line': b'writing base_interfaces_demo.egg-info/PKG-INFO\n'}
+[5.305616] (base_interfaces_demo) StdoutLine: {'line': b'writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt\n'}
+[5.306419] (base_interfaces_demo) StdoutLine: {'line': b'writing top-level names to base_interfaces_demo.egg-info/top_level.txt\n'}
+[5.319612] (base_interfaces_demo) StdoutLine: {'line': b"reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[5.321535] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[5.326363] (-) TimerEvent: {}
+[5.373819] (base_interfaces_demo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_base_interfaces_demo_egg\n'}
+[5.426533] (-) TimerEvent: {}
+[5.527062] (-) TimerEvent: {}
+[5.627664] (-) TimerEvent: {}
+[5.728359] (-) TimerEvent: {}
+[5.828960] (-) TimerEvent: {}
+[5.929467] (-) TimerEvent: {}
+[6.030175] (-) TimerEvent: {}
+[6.130887] (-) TimerEvent: {}
+[6.231502] (-) TimerEvent: {}
+[6.332127] (-) TimerEvent: {}
+[6.432676] (-) TimerEvent: {}
+[6.458448] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_c\x1b[0m\n'}
+[6.497978] (base_interfaces_demo) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o\x1b[0m\n'}
+[6.503182] (base_interfaces_demo) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o\x1b[0m\n'}
+[6.503832] (base_interfaces_demo) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o\x1b[0m\n'}
+[6.509318] (base_interfaces_demo) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o\x1b[0m\n'}
+[6.511846] (base_interfaces_demo) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/nav__functions.c.o\x1b[0m\n'}
+[6.532889] (-) TimerEvent: {}
+[6.602539] (base_interfaces_demo) StdoutLine: {'line': b'[ 11%] Built target base_interfaces_demo__cpp\n'}
+[6.615220] (base_interfaces_demo) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.615732] (base_interfaces_demo) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.616055] (base_interfaces_demo) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.633071] (-) TimerEvent: {}
+[6.733669] (-) TimerEvent: {}
+[6.834304] (-) TimerEvent: {}
+[6.934921] (-) TimerEvent: {}
+[7.035687] (-) TimerEvent: {}
+[7.136367] (-) TimerEvent: {}
+[7.217575] (base_interfaces_demo) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so\x1b[0m\n'}
+[7.236552] (-) TimerEvent: {}
+[7.337277] (-) TimerEvent: {}
+[7.437950] (-) TimerEvent: {}
+[7.538572] (-) TimerEvent: {}
+[7.639360] (-) TimerEvent: {}
+[7.740163] (-) TimerEvent: {}
+[7.840949] (-) TimerEvent: {}
+[7.941757] (-) TimerEvent: {}
+[8.024404] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.041941] (-) TimerEvent: {}
+[8.076124] (base_interfaces_demo) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/add_ints__type_support.cpp.o\x1b[0m\n'}
+[8.078188] (base_interfaces_demo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/distance__type_support.cpp.o\x1b[0m\n'}
+[8.079754] (base_interfaces_demo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[8.137728] (base_interfaces_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/nav__type_support.cpp.o\x1b[0m\n'}
+[8.139066] (base_interfaces_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/progress__type_support.cpp.o\x1b[0m\n'}
+[8.142199] (-) TimerEvent: {}
+[8.142735] (base_interfaces_demo) StdoutLine: {'line': b'[ 25%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[8.164259] (base_interfaces_demo) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.242382] (-) TimerEvent: {}
+[8.342956] (-) TimerEvent: {}
+[8.361250] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.429335] (base_interfaces_demo) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[8.443132] (-) TimerEvent: {}
+[8.543720] (-) TimerEvent: {}
+[8.644294] (-) TimerEvent: {}
+[8.651791] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.744499] (-) TimerEvent: {}
+[8.762333] (base_interfaces_demo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[8.844839] (-) TimerEvent: {}
+[8.945585] (-) TimerEvent: {}
+[9.046271] (-) TimerEvent: {}
+[9.146878] (-) TimerEvent: {}
+[9.247623] (-) TimerEvent: {}
+[9.349318] (-) TimerEvent: {}
+[9.450071] (-) TimerEvent: {}
+[9.550717] (-) TimerEvent: {}
+[9.651424] (-) TimerEvent: {}
+[9.752475] (-) TimerEvent: {}
+[9.853220] (-) TimerEvent: {}
+[9.953946] (-) TimerEvent: {}
+[10.054998] (-) TimerEvent: {}
+[10.155529] (-) TimerEvent: {}
+[10.256123] (-) TimerEvent: {}
+[10.257703] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.356375] (-) TimerEvent: {}
+[10.457133] (-) TimerEvent: {}
+[10.480072] (base_interfaces_demo) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[10.486476] (base_interfaces_demo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/add_ints__type_support_c.cpp.o\x1b[0m\n'}
+[10.488907] (base_interfaces_demo) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.499561] (base_interfaces_demo) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.557281] (-) TimerEvent: {}
+[10.657891] (-) TimerEvent: {}
+[10.758411] (-) TimerEvent: {}
+[10.859057] (-) TimerEvent: {}
+[10.959788] (-) TimerEvent: {}
+[11.060623] (-) TimerEvent: {}
+[11.161338] (-) TimerEvent: {}
+[11.261922] (-) TimerEvent: {}
+[11.327242] (base_interfaces_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/add_ints__type_support.cpp.o\x1b[0m\n'}
+[11.341493] (base_interfaces_demo) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.cpp.o\x1b[0m\n'}
+[11.362198] (-) TimerEvent: {}
+[11.462766] (-) TimerEvent: {}
+[11.531623] (base_interfaces_demo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/distance__type_support.cpp.o\x1b[0m\n'}
+[11.535534] (base_interfaces_demo) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.562965] (-) TimerEvent: {}
+[11.659003] (base_interfaces_demo) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/distance__type_support_c.cpp.o\x1b[0m\n'}
+[11.663156] (-) TimerEvent: {}
+[11.766972] (-) TimerEvent: {}
+[11.867672] (-) TimerEvent: {}
+[11.968508] (-) TimerEvent: {}
+[12.069049] (-) TimerEvent: {}
+[12.169590] (-) TimerEvent: {}
+[12.270170] (-) TimerEvent: {}
+[12.370881] (-) TimerEvent: {}
+[12.471690] (-) TimerEvent: {}
+[12.572636] (-) TimerEvent: {}
+[12.673441] (-) TimerEvent: {}
+[12.698486] (base_interfaces_demo) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/progress__type_support_c.cpp.o\x1b[0m\n'}
+[12.773669] (-) TimerEvent: {}
+[12.874512] (-) TimerEvent: {}
+[12.883887] (base_interfaces_demo) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/distance__type_support.cpp.o\x1b[0m\n'}
+[12.903179] (base_interfaces_demo) StdoutLine: {'line': b'[ 47%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[12.960110] (base_interfaces_demo) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/progress__type_support.cpp.o\x1b[0m\n'}
+[12.965596] (base_interfaces_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/nav__type_support_c.cpp.o\x1b[0m\n'}
+[12.972292] (base_interfaces_demo) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/progress__type_support.cpp.o\x1b[0m\n'}
+[12.974682] (-) TimerEvent: {}
+[13.078118] (-) TimerEvent: {}
+[13.178850] (-) TimerEvent: {}
+[13.233981] (base_interfaces_demo) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/nav__type_support.cpp.o\x1b[0m\n'}
+[13.269304] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c\x1b[0m\n'}
+[13.279211] (-) TimerEvent: {}
+[13.379930] (-) TimerEvent: {}
+[13.411446] (base_interfaces_demo) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[13.480119] (-) TimerEvent: {}
+[13.580896] (-) TimerEvent: {}
+[13.590601] (base_interfaces_demo) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/add_ints__type_support.cpp.o\x1b[0m\n'}
+[13.681059] (-) TimerEvent: {}
+[13.781574] (-) TimerEvent: {}
+[13.803025] (base_interfaces_demo) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/distance__type_support.cpp.o\x1b[0m\n'}
+[13.881774] (-) TimerEvent: {}
+[13.982362] (-) TimerEvent: {}
+[14.032371] (base_interfaces_demo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/progress__type_support.cpp.o\x1b[0m\n'}
+[14.082581] (-) TimerEvent: {}
+[14.116423] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/nav__type_support.cpp.o\x1b[0m\n'}
+[14.142847] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[14.182793] (-) TimerEvent: {}
+[14.238587] (base_interfaces_demo) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[14.248899] (base_interfaces_demo) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o\x1b[0m\n'}
+[14.264611] (base_interfaces_demo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.283416] (-) TimerEvent: {}
+[14.293032] (base_interfaces_demo) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/nav__type_support.cpp.o\x1b[0m\n'}
+[14.317658] (base_interfaces_demo) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.356615] (base_interfaces_demo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o\x1b[0m\n'}
+[14.383719] (-) TimerEvent: {}
+[14.400704] (base_interfaces_demo) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o\x1b[0m\n'}
+[14.460345] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/nav__type_support.c.o\x1b[0m\n'}
+[14.484010] (-) TimerEvent: {}
+[14.585458] (-) TimerEvent: {}
+[14.669335] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.685102] (-) TimerEvent: {}
+[14.785826] (-) TimerEvent: {}
+[14.887106] (-) TimerEvent: {}
+[14.988915] (-) TimerEvent: {}
+[15.089740] (-) TimerEvent: {}
+[15.190660] (-) TimerEvent: {}
+[15.291702] (-) TimerEvent: {}
+[15.392617] (-) TimerEvent: {}
+[15.434978] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[15.492962] (-) TimerEvent: {}
+[15.593722] (-) TimerEvent: {}
+[15.609225] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[15.648783] (base_interfaces_demo) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.694034] (-) TimerEvent: {}
+[15.794787] (-) TimerEvent: {}
+[15.850441] (base_interfaces_demo) StdoutLine: {'line': b'[ 77%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[15.895000] (-) TimerEvent: {}
+[15.995706] (-) TimerEvent: {}
+[16.096517] (-) TimerEvent: {}
+[16.197256] (-) TimerEvent: {}
+[16.264379] (base_interfaces_demo) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.297506] (-) TimerEvent: {}
+[16.398258] (-) TimerEvent: {}
+[16.499148] (-) TimerEvent: {}
+[16.545475] (base_interfaces_demo) StdoutLine: {'line': b'[ 79%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[16.599327] (-) TimerEvent: {}
+[16.699999] (-) TimerEvent: {}
+[16.800694] (-) TimerEvent: {}
+[16.901352] (-) TimerEvent: {}
+[16.966543] (base_interfaces_demo) StdoutLine: {'line': b'[ 79%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[17.001552] (-) TimerEvent: {}
+[17.092642] (base_interfaces_demo) StdoutLine: {'line': b'[ 79%] Built target base_interfaces_demo\n'}
+[17.101808] (-) TimerEvent: {}
+[17.122651] (base_interfaces_demo) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.201981] (-) TimerEvent: {}
+[17.302474] (-) TimerEvent: {}
+[17.403051] (-) TimerEvent: {}
+[17.503581] (-) TimerEvent: {}
+[17.604111] (-) TimerEvent: {}
+[17.704693] (-) TimerEvent: {}
+[17.805252] (-) TimerEvent: {}
+[17.906013] (-) TimerEvent: {}
+[18.006674] (-) TimerEvent: {}
+[18.107179] (-) TimerEvent: {}
+[18.207833] (-) TimerEvent: {}
+[18.308365] (-) TimerEvent: {}
+[18.408927] (-) TimerEvent: {}
+[18.509425] (-) TimerEvent: {}
+[18.609978] (-) TimerEvent: {}
+[18.710549] (-) TimerEvent: {}
+[18.811233] (-) TimerEvent: {}
+[18.911811] (-) TimerEvent: {}
+[19.012341] (-) TimerEvent: {}
+[19.112850] (-) TimerEvent: {}
+[19.213522] (-) TimerEvent: {}
+[19.314291] (-) TimerEvent: {}
+[19.414996] (-) TimerEvent: {}
+[19.515687] (-) TimerEvent: {}
+[19.616209] (-) TimerEvent: {}
+[19.716736] (-) TimerEvent: {}
+[19.817332] (-) TimerEvent: {}
+[19.917936] (-) TimerEvent: {}
+[20.018480] (-) TimerEvent: {}
+[20.119137] (-) TimerEvent: {}
+[20.219798] (-) TimerEvent: {}
+[20.320408] (-) TimerEvent: {}
+[20.421007] (-) TimerEvent: {}
+[20.521587] (-) TimerEvent: {}
+[20.622124] (-) TimerEvent: {}
+[20.722777] (-) TimerEvent: {}
+[20.823352] (-) TimerEvent: {}
+[20.923922] (-) TimerEvent: {}
+[21.024599] (-) TimerEvent: {}
+[21.125479] (-) TimerEvent: {}
+[21.226696] (-) TimerEvent: {}
+[21.272205] (base_interfaces_demo) StdoutLine: {'line': b'[ 80%] Built target base_interfaces_demo__py\n'}
+[21.302081] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_py\x1b[0m\n'}
+[21.327995] (base_interfaces_demo) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o\x1b[0m\n'}
+[21.328345] (-) TimerEvent: {}
+[21.333439] (base_interfaces_demo) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_distance_s.c.o\x1b[0m\n'}
+[21.336342] (base_interfaces_demo) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/action/_progress_s.c.o\x1b[0m\n'}
+[21.338960] (base_interfaces_demo) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/action/_nav_s.c.o\x1b[0m\n'}
+[21.339350] (base_interfaces_demo) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c.o\x1b[0m\n'}
+[21.428563] (-) TimerEvent: {}
+[21.529215] (-) TimerEvent: {}
+[21.629938] (-) TimerEvent: {}
+[21.730531] (-) TimerEvent: {}
+[21.831369] (-) TimerEvent: {}
+[21.932618] (-) TimerEvent: {}
+[22.025754] (base_interfaces_demo) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\x1b[0m\n'}
+[22.032833] (-) TimerEvent: {}
+[22.133412] (-) TimerEvent: {}
+[22.234038] (-) TimerEvent: {}
+[22.334885] (-) TimerEvent: {}
+[22.435726] (-) TimerEvent: {}
+[22.536406] (-) TimerEvent: {}
+[22.637189] (-) TimerEvent: {}
+[22.737974] (-) TimerEvent: {}
+[22.838701] (-) TimerEvent: {}
+[22.897492] (base_interfaces_demo) StdoutLine: {'line': b'[ 90%] Built target base_interfaces_demo__rosidl_generator_py\n'}
+[22.915189] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[22.920211] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[22.921217] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[22.938938] (-) TimerEvent: {}
+[22.947043] (base_interfaces_demo) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.947985] (base_interfaces_demo) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.949677] (base_interfaces_demo) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.039197] (-) TimerEvent: {}
+[23.139933] (-) TimerEvent: {}
+[23.240753] (-) TimerEvent: {}
+[23.341508] (-) TimerEvent: {}
+[23.390197] (base_interfaces_demo) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.393042] (base_interfaces_demo) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.400512] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.441784] (-) TimerEvent: {}
+[23.542516] (-) TimerEvent: {}
+[23.643335] (-) TimerEvent: {}
+[23.744031] (-) TimerEvent: {}
+[23.844728] (-) TimerEvent: {}
+[23.945719] (-) TimerEvent: {}
+[23.997008] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[23.997495] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.998714] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[24.027375] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[24.046019] (-) TimerEvent: {}
+[24.147014] (-) TimerEvent: {}
+[24.247887] (-) TimerEvent: {}
+[24.250857] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[24.263367] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzw/ws01_plumbing/build/base_interfaces_demo'], 'cwd': '/home/zzw/ws01_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('GIT_ASKPASS', '/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-24680436-307f-4599-a9e1-1a103c56895b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/15_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/zzw/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/VMware/bin/:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/e/VMware/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/e/spss25/JRE/bin:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/e/go/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.20.128.1:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-943cfc29ba.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zzw/ws01_plumbing/build/base_interfaces_demo'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.277471] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.277839] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[24.278374] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[24.278976] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[24.279576] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h\n'}
+[24.279819] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/distance.h\n'}
+[24.280307] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[24.280929] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__functions.c\n'}
+[24.281403] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__struct.h\n'}
+[24.282126] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__functions.h\n'}
+[24.282916] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__type_support.h\n'}
+[24.283112] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c\n'}
+[24.283757] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h\n'}
+[24.284331] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h\n'}
+[24.284637] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h\n'}
+[24.284937] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[24.285523] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h\n'}
+[24.285872] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.286296] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[24.286872] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h\n'}
+[24.287357] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c\n'}
+[24.287916] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h\n'}
+[24.288413] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h\n'}
+[24.290781] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action\n'}
+[24.291407] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.h\n'}
+[24.291918] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/nav.h\n'}
+[24.292139] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail\n'}
+[24.292328] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__struct.h\n'}
+[24.292624] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__functions.c\n'}
+[24.292963] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.h\n'}
+[24.293264] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__type_support.h\n'}
+[24.295280] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.h\n'}
+[24.295645] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__functions.h\n'}
+[24.295854] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.h\n'}
+[24.296202] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.c\n'}
+[24.296527] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[24.296890] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[24.330136] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[24.331424] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""\n'}
+[24.331998] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[24.332510] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[24.333240] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[24.333533] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[24.333701] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_fastrtps_c.h\n'}
+[24.333805] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[24.333957] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.334058] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[24.334389] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[24.334715] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action\n'}
+[24.334833] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail\n'}
+[24.334929] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h\n'}
+[24.335021] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__rosidl_typesupport_fastrtps_c.h\n'}
+[24.346500] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[24.347424] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.347866] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[24.348061] (-) TimerEvent: {}
+[24.348474] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[24.348949] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[24.349398] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_introspection_c.h\n'}
+[24.350274] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c\n'}
+[24.350605] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h\n'}
+[24.350922] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__type_support.c\n'}
+[24.351266] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[24.351696] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.352430] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[24.352647] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[24.353045] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c\n'}
+[24.353219] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action\n'}
+[24.353548] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail\n'}
+[24.353979] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__type_support.c\n'}
+[24.354363] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c\n'}
+[24.354648] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__rosidl_typesupport_introspection_c.h\n'}
+[24.354881] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h\n'}
+[24.355366] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[24.356230] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.357586] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[24.358346] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""\n'}
+[24.358824] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[24.358950] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[24.359193] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp\n'}
+[24.359322] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/distance.hpp\n'}
+[24.359686] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[24.359815] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp\n'}
+[24.360164] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__struct.hpp\n'}
+[24.360575] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp\n'}
+[24.360876] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__traits.hpp\n'}
+[24.361196] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__builder.hpp\n'}
+[24.361482] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp\n'}
+[24.361711] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[24.362349] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp\n'}
+[24.363233] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[24.363498] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp\n'}
+[24.364076] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp\n'}
+[24.364924] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp\n'}
+[24.365353] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action\n'}
+[24.365698] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.hpp\n'}
+[24.366341] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail\n'}
+[24.367044] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__builder.hpp\n'}
+[24.367590] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__builder.hpp\n'}
+[24.368425] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__traits.hpp\n'}
+[24.368962] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__traits.hpp\n'}
+[24.369200] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__struct.hpp\n'}
+[24.369984] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.hpp\n'}
+[24.370208] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/nav.hpp\n'}
+[24.370418] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[24.370523] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[24.370691] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[24.371108] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.371316] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps\n'}
+[24.372015] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.372307] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[24.372766] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[24.372977] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps\n'}
+[24.373470] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.373779] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.374095] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action\n'}
+[24.374498] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail\n'}
+[24.374874] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.375191] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/dds_fastrtps\n'}
+[24.375613] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.375974] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.376829] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.377469] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[24.377946] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[24.378478] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[24.379198] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.379647] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp\n'}
+[24.380173] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__type_support.cpp\n'}
+[24.380761] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.381034] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[24.383354] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[24.383847] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.384655] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp\n'}
+[24.384995] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action\n'}
+[24.385240] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail\n'}
+[24.385600] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.cpp\n'}
+[24.385960] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.386254] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/nav__type_support.cpp\n'}
+[24.386463] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.402546] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[24.403878] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.405690] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[24.406849] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[24.407301] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[24.407832] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[24.408534] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info\n'}
+[24.409178] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.409623] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.410479] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.410949] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.411311] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo\n'}
+[24.411776] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.412425] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv\n'}
+[24.412981] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py\n'}
+[24.413461] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_distance_s.c\n'}
+[24.413857] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_distance.py\n'}
+[24.414229] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c\n'}
+[24.414746] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py\n'}
+[24.415438] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg\n'}
+[24.415837] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py\n'}
+[24.416057] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c\n'}
+[24.416457] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py\n'}
+[24.417078] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.417654] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py\n'}
+[24.418350] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.418940] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c\n'}
+[24.419435] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.419687] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[24.420093] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action\n'}
+[24.420505] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_nav_s.c\n'}
+[24.420898] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py\n'}
+[24.421255] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py\n'}
+[24.421668] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress_s.c\n'}
+[24.422089] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_nav.py\n'}
+[24.422512] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.448272] (-) TimerEvent: {}
+[24.548814] (-) TimerEvent: {}
+[24.563897] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...\n"}
+[24.564327] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...\n"}
+[24.564569] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action'...\n"}
+[24.565046] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py'...\n"}
+[24.565836] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_nav.py'...\n"}
+[24.566363] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py'...\n"}
+[24.566872] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...\n"}
+[24.567330] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...\n"}
+[24.567773] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...\n"}
+[24.568187] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...\n"}
+[24.568652] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...\n"}
+[24.569065] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py'...\n"}
+[24.569477] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_distance.py'...\n"}
+[24.575446] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.576403] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.577049] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.577707] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.578205] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.578801] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.593877] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[24.594880] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""\n'}
+[24.595628] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl\n'}
+[24.596145] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl\n'}
+[24.597234] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Distance.idl\n'}
+[24.597972] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.idl\n'}
+[24.598871] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Nav.idl\n'}
+[24.599469] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg\n'}
+[24.600040] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv\n'}
+[24.600439] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Request.msg\n'}
+[24.600967] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Response.msg\n'}
+[24.601586] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Distance.srv\n'}
+[24.601842] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Distance_Request.msg\n'}
+[24.602016] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Distance_Response.msg\n'}
+[24.602168] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.action\n'}
+[24.602333] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Nav.action\n'}
+[24.602480] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[24.602645] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[24.602826] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[24.602989] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[24.603134] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[24.603260] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[24.603404] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[24.603526] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[24.603810] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[24.603983] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[24.604262] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[24.604456] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[24.610269] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[24.610626] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.611105] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.611440] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.611959] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.612398] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.612852] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[24.613332] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.613794] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[24.614273] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.614812] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.615345] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.615746] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.616219] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[24.616787] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.617339] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake\n'}
+[24.617697] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.618461] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[24.618903] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.619312] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.619702] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.619993] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.620218] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.620479] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.620688] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[24.620890] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[24.621092] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[24.622500] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[24.649048] (-) TimerEvent: {}
+[24.749597] (-) TimerEvent: {}
+[24.850229] (-) TimerEvent: {}
+[24.950701] (-) TimerEvent: {}
+[25.051685] (-) TimerEvent: {}
+[25.137235] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[25.140042] (-) EventReactorShutdown: {}

@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.001686] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001793] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002942] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.003063] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.003144] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.003265] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.003584] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.003627] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.003765] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.003858] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.003976] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.004685] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.004879] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.004970] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.005068] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/zzw/ws01_plumbing/install/base_interfaces_demo')])}
+[0.005182] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.099114] (-) TimerEvent: {}
+[0.199806] (-) TimerEvent: {}
+[0.300391] (-) TimerEvent: {}
+[0.400899] (-) TimerEvent: {}
+[0.501599] (-) TimerEvent: {}
+[0.602166] (-) TimerEvent: {}
+[0.637922] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.669051] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.671799] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzw/ws01_plumbing/build/cpp07_exercise', '--', '-j8', '-l8'], 'cwd': '/home/zzw/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('OLDPWD', '/home/zzw/ws01_plumbing/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.1.23.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/VMware/bin/:/mnt/e/spss25/JRE/bin:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zzw/ws01_plumbing/build/cpp07_exercise'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.710459] (-) TimerEvent: {}
+[0.813417] (-) TimerEvent: {}
+[0.914105] (-) TimerEvent: {}
+[1.014670] (-) TimerEvent: {}
+[1.115108] (-) TimerEvent: {}
+[1.215600] (-) TimerEvent: {}
+[1.316118] (-) TimerEvent: {}
+[1.416584] (-) TimerEvent: {}
+[1.517276] (-) TimerEvent: {}
+[1.617858] (-) TimerEvent: {}
+[1.718403] (-) TimerEvent: {}
+[1.819213] (-) TimerEvent: {}
+[1.919853] (-) TimerEvent: {}
+[2.020464] (-) TimerEvent: {}
+[2.121137] (-) TimerEvent: {}
+[2.221688] (-) TimerEvent: {}
+[2.322363] (-) TimerEvent: {}
+[2.422937] (-) TimerEvent: {}
+[2.523627] (-) TimerEvent: {}
+[2.624376] (-) TimerEvent: {}
+[2.724871] (-) TimerEvent: {}
+[2.825490] (-) TimerEvent: {}
+[2.925970] (-) TimerEvent: {}
+[3.019322] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer06_param\x1b[0m\n'}
+[3.026168] (-) TimerEvent: {}
+[3.126842] (-) TimerEvent: {}
+[3.227423] (-) TimerEvent: {}
+[3.327932] (-) TimerEvent: {}
+[3.428528] (-) TimerEvent: {}
+[3.529129] (-) TimerEvent: {}
+[3.630040] (-) TimerEvent: {}
+[3.719044] (cpp07_exercise) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o\x1b[0m\n'}
+[3.730114] (-) TimerEvent: {}
+[3.830607] (-) TimerEvent: {}
+[3.898599] (cpp07_exercise) StdoutLine: {'line': b'[ 41%] Built target exer02_server\n'}
+[3.898912] (cpp07_exercise) StdoutLine: {'line': b'[ 41%] Built target exer03_client\n'}
+[3.930864] (-) TimerEvent: {}
+[4.007308] (cpp07_exercise) StdoutLine: {'line': b'[ 58%] Built target exer01_pub_sub\n'}
+[4.031092] (-) TimerEvent: {}
+[4.131865] (-) TimerEvent: {}
+[4.232456] (-) TimerEvent: {}
+[4.333023] (-) TimerEvent: {}
+[4.346216] (cpp07_exercise) StdoutLine: {'line': b'[ 75%] Built target exer04_action_server\n'}
+[4.356796] (cpp07_exercise) StdoutLine: {'line': b'[ 91%] Built target exer05_action_client\n'}
+[4.433211] (-) TimerEvent: {}
+[4.533678] (-) TimerEvent: {}
+[4.634203] (-) TimerEvent: {}
+[4.734920] (-) TimerEvent: {}
+[4.835745] (-) TimerEvent: {}
+[4.936568] (-) TimerEvent: {}
+[5.037218] (-) TimerEvent: {}
+[5.137876] (-) TimerEvent: {}
+[5.238509] (-) TimerEvent: {}
+[5.339207] (-) TimerEvent: {}
+[5.439798] (-) TimerEvent: {}
+[5.540294] (-) TimerEvent: {}
+[5.640888] (-) TimerEvent: {}
+[5.741628] (-) TimerEvent: {}
+[5.842248] (-) TimerEvent: {}
+[5.942879] (-) TimerEvent: {}
+[6.043458] (-) TimerEvent: {}
+[6.144010] (-) TimerEvent: {}
+[6.244634] (-) TimerEvent: {}
+[6.345090] (-) TimerEvent: {}
+[6.445572] (-) TimerEvent: {}
+[6.546158] (-) TimerEvent: {}
+[6.646820] (-) TimerEvent: {}
+[6.747478] (-) TimerEvent: {}
+[6.848155] (-) TimerEvent: {}
+[6.948757] (-) TimerEvent: {}
+[7.049295] (-) TimerEvent: {}
+[7.149873] (-) TimerEvent: {}
+[7.250451] (-) TimerEvent: {}
+[7.351055] (-) TimerEvent: {}
+[7.451911] (-) TimerEvent: {}
+[7.552509] (-) TimerEvent: {}
+[7.653066] (-) TimerEvent: {}
+[7.753974] (-) TimerEvent: {}
+[7.854589] (-) TimerEvent: {}
+[7.955149] (-) TimerEvent: {}
+[8.055727] (-) TimerEvent: {}
+[8.156298] (-) TimerEvent: {}
+[8.256884] (-) TimerEvent: {}
+[8.357516] (-) TimerEvent: {}
+[8.458092] (-) TimerEvent: {}
+[8.558608] (-) TimerEvent: {}
+[8.659117] (-) TimerEvent: {}
+[8.759614] (-) TimerEvent: {}
+[8.860199] (-) TimerEvent: {}
+[8.960802] (-) TimerEvent: {}
+[9.061590] (-) TimerEvent: {}
+[9.162321] (-) TimerEvent: {}
+[9.263032] (-) TimerEvent: {}
+[9.363725] (-) TimerEvent: {}
+[9.464360] (-) TimerEvent: {}
+[9.564905] (-) TimerEvent: {}
+[9.665442] (-) TimerEvent: {}
+[9.766017] (-) TimerEvent: {}
+[9.866771] (-) TimerEvent: {}
+[9.967334] (-) TimerEvent: {}
+[10.067986] (-) TimerEvent: {}
+[10.168542] (-) TimerEvent: {}
+[10.269020] (-) TimerEvent: {}
+[10.369620] (-) TimerEvent: {}
+[10.470264] (-) TimerEvent: {}
+[10.570850] (-) TimerEvent: {}
+[10.671370] (-) TimerEvent: {}
+[10.771866] (-) TimerEvent: {}
+[10.872619] (-) TimerEvent: {}
+[10.973182] (-) TimerEvent: {}
+[11.073796] (-) TimerEvent: {}
+[11.174276] (-) TimerEvent: {}
+[11.274813] (-) TimerEvent: {}
+[11.375317] (-) TimerEvent: {}
+[11.475741] (-) TimerEvent: {}
+[11.576210] (-) TimerEvent: {}
+[11.577609] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer06_param\x1b[0m\n'}
+[11.676393] (-) TimerEvent: {}
+[11.776866] (-) TimerEvent: {}
+[11.877347] (-) TimerEvent: {}
+[11.977985] (-) TimerEvent: {}
+[12.078836] (-) TimerEvent: {}
+[12.179405] (-) TimerEvent: {}
+[12.280031] (-) TimerEvent: {}
+[12.380549] (-) TimerEvent: {}
+[12.481270] (-) TimerEvent: {}
+[12.581731] (-) TimerEvent: {}
+[12.682186] (-) TimerEvent: {}
+[12.782696] (-) TimerEvent: {}
+[12.883206] (-) TimerEvent: {}
+[12.983737] (-) TimerEvent: {}
+[13.061614] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer06_param\n'}
+[13.076588] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[13.083962] (-) TimerEvent: {}
+[13.135041] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[13.145308] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzw/ws01_plumbing/build/cpp07_exercise'], 'cwd': '/home/zzw/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zzw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zzw'), ('OLDPWD', '/home/zzw/ws01_plumbing/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zzw'), ('NAME', 'LAPTOP-48A1KBTU'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.1.23.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matlab2018a/matlab2018/runtime/win64:/mnt/e/matlab2018a/matlab2018/bin:/mnt/e/lingo/:/mnt/d/texlive/texlive1/texlive/2020/bin/win32:/mnt/e/JDK/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/e/nodejs/:/mnt/e/Graphviz/bin:/mnt/e/apache-maven-3.8.1/bin:/mnt/c/Program Files/Pandoc/:/mnt/e/mingw/mingw32/bin:/mnt/e/wechat_dev/微信web开发者工具/dll:/mnt/e/Git/Git/cmd:/mnt/e/cmake/bin:/mnt/e/python3.9:/mnt/e/python3.9/Scripts:/mnt/e/nodejs/node_global:/mnt/e/vscode/Microsoft VS Code:/mnt/e/go/bin:/mnt/e/VMware/bin/:/mnt/e/spss25/JRE/bin:/mnt/c/Users/张志威/AppData/Roaming/Aria2/maria2c.exe:/mnt/c/Users/张志威/go/bin:/mnt/c/Users/张志威/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zzw/ws01_plumbing/build/cpp07_exercise'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[13.184158] (-) TimerEvent: {}
+[13.189038] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.275355] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[13.284361] (-) TimerEvent: {}
+[13.323671] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server\n'}
+[13.334569] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client\n'}
+[13.378718] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server\n'}
+[13.384479] (-) TimerEvent: {}
+[13.425630] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client\n'}
+[13.472734] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param\n'}
+[13.474110] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/zzw/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param" to ""\n'}
+[13.484635] (-) TimerEvent: {}
+[13.485601] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[13.528968] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py\n'}
+[13.529428] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer06_param_launch.py\n'}
+[13.529935] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py\n'}
+[13.530045] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py\n'}
+[13.530134] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[13.530219] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py\n'}
+[13.575644] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[13.584850] (-) TimerEvent: {}
+[13.591441] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[13.606596] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[13.607115] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[13.607359] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[13.607626] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[13.608028] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[13.608142] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[13.608231] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[13.608315] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[13.608495] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[13.608891] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[13.627699] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[13.628316] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[13.628631] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/zzw/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[13.631535] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[13.685006] (-) TimerEvent: {}
+[13.785519] (-) TimerEvent: {}
+[13.886226] (-) TimerEvent: {}
+[13.970352] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[13.973086] (-) EventReactorShutdown: {}

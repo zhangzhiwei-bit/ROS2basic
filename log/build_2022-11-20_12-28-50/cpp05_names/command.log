@@ -1,0 +1,4 @@
+Invoking command in '/home/zzw/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp05_names -- -j8 -l8
+Invoked command in '/home/zzw/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp05_names -- -j8 -l8
+Invoking command in '/home/zzw/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp05_names
+Invoked command in '/home/zzw/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp05_names

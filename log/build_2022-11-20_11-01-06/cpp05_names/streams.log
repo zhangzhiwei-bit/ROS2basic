@@ -1,0 +1,69 @@
+[0.483s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/zzw/ws01_plumbing/install/cpp05_names
+[1.434s] -- The C compiler identification is GNU 11.3.0
+[1.434s] -- The CXX compiler identification is GNU 11.3.0
+[1.434s] -- Detecting C compiler ABI info
+[1.434s] -- Detecting C compiler ABI info - done
+[1.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.434s] -- Detecting C compile features
+[1.435s] -- Detecting C compile features - done
+[1.435s] -- Detecting CXX compiler ABI info
+[1.435s] -- Detecting CXX compiler ABI info - done
+[1.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.436s] -- Detecting CXX compile features
+[1.436s] -- Detecting CXX compile features - done
+[1.436s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.437s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.437s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.525s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.532s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.563s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.926s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.945s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.364s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.434s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.536s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.084s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.324s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.325s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zzw/ws01_plumbing/src/cpp05_names/include>
+[3.325s] -- Configured cppcheck exclude dirs and/or files: 
+[3.326s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.327s] -- Added test 'lint_cmake' to check CMake code style
+[3.331s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.332s] -- Added test 'uncrustify' to check C / C++ code style
+[3.332s] -- Configured uncrustify additional arguments: 
+[3.332s] -- Added test 'xmllint' to check XML markup files
+[3.333s] -- Configuring done
+[3.363s] -- Generating done
+[3.365s] -- Build files have been written to: /home/zzw/ws01_plumbing/build/cpp05_names
+[3.386s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zzw/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/zzw/ws01_plumbing/install/cpp05_names
+[3.390s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp05_names -- -j8 -l8
+[3.454s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[28.255s] [100%] [32m[1mLinking CXX executable demo01_names[0m
+[28.664s] [100%] Built target demo01_names
+[28.677s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp05_names -- -j8 -l8
+[28.706s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp05_names
+[28.714s] -- Install configuration: ""
+[28.715s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names
+[28.715s] -- Set runtime path of "/home/zzw/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names" to ""
+[28.716s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch
+[28.747s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo03_names_launch.yaml
+[28.751s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo02_names_launch.xml
+[28.752s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[28.781s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[28.781s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[28.793s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[28.794s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[28.795s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.sh
+[28.795s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[28.797s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.bash
+[28.797s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.sh
+[28.803s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[28.804s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[28.805s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.dsv
+[28.809s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[28.809s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[28.815s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[28.816s] -- Installing: /home/zzw/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.xml
+[28.830s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp05_names

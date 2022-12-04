@@ -1,0 +1,26 @@
+[1.605s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[2.149s] [35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[2.152s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[2.155s] [ 50%] Built target demo02_action_client
+[2.157s] [100%] Built target demo01_action_server
+[2.162s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zzw/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[3.336s] Invoking command in '/home/zzw/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp03_action
+[3.364s] -- Install configuration: ""
+[3.367s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[3.374s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[3.375s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[3.375s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[3.376s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[3.377s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[3.377s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[3.378s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[3.378s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[3.379s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[3.379s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[3.380s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[3.380s] -- Installing: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[3.391s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[3.393s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[3.396s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[3.406s] -- Up-to-date: /home/zzw/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[3.439s] Invoked command in '/home/zzw/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzw/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zzw/ws01_plumbing/build/cpp03_action

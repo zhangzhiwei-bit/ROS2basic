@@ -1,0 +1,39 @@
+[2.112s] Invoking command in '/home/zzw/ws01_plumbing/src/py05_names': PYTHONPATH=/home/zzw/ws01_plumbing/build/py05_names/prefix_override:/home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/zzw/ws01_plumbing/build/py05_names/build install --record /home/zzw/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed
+[2.609s] running egg_info
+[2.611s] creating ../../build/py05_names/py05_names.egg-info
+[2.612s] writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+[2.613s] writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+[2.615s] writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+[2.615s] writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+[2.615s] writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+[2.615s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[2.621s] reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[2.621s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[2.622s] running build
+[2.622s] running build_py
+[2.622s] creating /home/zzw/ws01_plumbing/build/py05_names/build
+[2.622s] creating /home/zzw/ws01_plumbing/build/py05_names/build/lib
+[2.623s] creating /home/zzw/ws01_plumbing/build/py05_names/build/lib/py05_names
+[2.623s] copying py05_names/__init__.py -> /home/zzw/ws01_plumbing/build/py05_names/build/lib/py05_names
+[2.623s] copying py05_names/demo01_names_py.py -> /home/zzw/ws01_plumbing/build/py05_names/build/lib/py05_names
+[2.624s] running install
+[2.624s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.624s]   warnings.warn(
+[2.624s] running install_lib
+[2.626s] creating /home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[2.627s] copying /home/zzw/ws01_plumbing/build/py05_names/build/lib/py05_names/__init__.py -> /home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[2.627s] copying /home/zzw/ws01_plumbing/build/py05_names/build/lib/py05_names/demo01_names_py.py -> /home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[2.628s] byte-compiling /home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/__init__.py to __init__.cpython-310.pyc
+[2.630s] byte-compiling /home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/demo01_names_py.py to demo01_names_py.cpython-310.pyc
+[2.630s] running install_data
+[2.632s] creating /home/zzw/ws01_plumbing/install/py05_names/share/ament_index
+[2.632s] creating /home/zzw/ws01_plumbing/install/py05_names/share/ament_index/resource_index
+[2.633s] creating /home/zzw/ws01_plumbing/install/py05_names/share/ament_index/resource_index/packages
+[2.634s] copying resource/py05_names -> /home/zzw/ws01_plumbing/install/py05_names/share/ament_index/resource_index/packages
+[2.637s] copying package.xml -> /home/zzw/ws01_plumbing/install/py05_names/share/py05_names
+[2.637s] running install_egg_info
+[2.638s] Copying ../../build/py05_names/py05_names.egg-info to /home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info
+[2.643s] running install_scripts
+[2.701s] Installing demo01_names_py script to /home/zzw/ws01_plumbing/install/py05_names/lib/py05_names
+[2.702s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py05_names/install.log'
+[2.841s] Invoked command in '/home/zzw/ws01_plumbing/src/py05_names' returned '0': PYTHONPATH=/home/zzw/ws01_plumbing/build/py05_names/prefix_override:/home/zzw/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/zzw/ws01_plumbing/build/py05_names/build install --record /home/zzw/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+[3.468s] Invoking command in '/home/zzw/ws01_plumbing/src/py06_time': PYTHONPATH=/home/zzw/ws01_plumbing/build/py06_time/prefix_override:/home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/zzw/ws01_plumbing/build/py06_time/build install --record /home/zzw/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed
+[4.169s] running egg_info
+[4.177s] writing ../../build/py06_time/py06_time.egg-info/PKG-INFO
+[4.179s] writing dependency_links to ../../build/py06_time/py06_time.egg-info/dependency_links.txt
+[4.180s] writing entry points to ../../build/py06_time/py06_time.egg-info/entry_points.txt
+[4.183s] writing requirements to ../../build/py06_time/py06_time.egg-info/requires.txt
+[4.185s] writing top-level names to ../../build/py06_time/py06_time.egg-info/top_level.txt
+[4.186s] reading manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[4.208s] writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[4.208s] running build
+[4.209s] running build_py
+[4.210s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.210s]   warnings.warn(
+[4.211s] running install
+[4.212s] running install_lib
+[4.214s] running install_data
+[4.215s] running install_egg_info
+[4.230s] removing '/home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info' (and everything under it)
+[4.230s] Copying ../../build/py06_time/py06_time.egg-info to /home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info
+[4.238s] running install_scripts
+[4.433s] Installing demo01_time_py script to /home/zzw/ws01_plumbing/install/py06_time/lib/py06_time
+[4.433s] writing list of installed files to '/home/zzw/ws01_plumbing/build/py06_time/install.log'
+[4.752s] Invoked command in '/home/zzw/ws01_plumbing/src/py06_time' returned '0': PYTHONPATH=/home/zzw/ws01_plumbing/build/py06_time/prefix_override:/home/zzw/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/zzw/ws01_plumbing/build/py06_time/build install --record /home/zzw/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed

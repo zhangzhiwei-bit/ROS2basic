@@ -1,0 +1,5 @@
+launch:
+- node:
+    pkg: "cpp01_topic"
+    exec: "demo01_talker_str"
+    name: "t1"
